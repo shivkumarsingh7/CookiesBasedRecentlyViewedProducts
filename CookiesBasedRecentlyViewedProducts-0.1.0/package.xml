@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<package>
+    <name>ConversionBug_Cookiebaseproduct</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license>OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>The cookies based recently viewed products extension keeps a track of the products viewed by the visitor and shows the recently viewed products in a product carousel on the website. </summary>
+    <description>Cookies Based Recently Viewed Products&#xD;
+&#xD;
+The cookies based recently viewed products extension keeps a track of the products viewed by the visitor and shows the recently viewed products in a product carousel on the website. This lets users go back to the already viewed product and buy it. This adds to the easy navigation and better usability of the website, adding to a good user experience on the website. In a nutshell, the extension takes data from cookies to increase the sales on the site and improve the user experience.&#xD;
+&#xD;
+How to use this extension for higher conversions?&#xD;
+&#xD;
+The cookies based recently viewed extension works really well for the ecommerce marketplace websites. It can be configured for all the pages on the website and thus it will help the users find what they had viewed. This increases the sales, user experience and user retention.&#xD;
+&#xD;
+Special features of the cookies based recently viewed products extension&#xD;
+&#xD;
+    Increases sales in the e-commerce store&#xD;
+    Adds to better user experience&#xD;
+    Fully customizable &amp; hassle-free integration&#xD;
+    Responsive across all devices&#xD;
+&#xD;
+    Increases sales in the e-commerce store&#xD;
+&#xD;
+    Cookies based recently viewed products extension shows the users their recently viewed products enabling them to view and get back to it again to buy it.&#xD;
+    Adds to better user experience&#xD;
+&#xD;
+    As the recently viewed products are listed on the page, the customers need not search for the product again if they want to buy it. This adds to their usability experience.&#xD;
+    Hassle-free integration &amp; fully customizable&#xD;
+&#xD;
+    The extension can be easily integrated on the store either via Magento connect manager or via FileZilla. It can be easily customized as per the requirement.&#xD;
+    Responsive across all devices&#xD;
+&#xD;
+    The cookies based recently viewed products extension works easily across all the devices. From mobile to tablet and desktop to widescreen, this extension does its work without a glitch.&#xD;
+&#xD;
+Compatible with:&#xD;
+&#xD;
+    Community:1.9.2</description>
+    <notes>first release</notes>
+    <authors><author><name>shiv kumar singh</name><user>shivam</user><email>shivam.kumar@conversionbug.com</email></author></authors>
+    <date>2016-05-14</date>
+    <time>07:58:57</time>
+    <contents><target name="magelocal"><dir name="ConversionBug"><dir name="Cookiebaseproduct"><dir name="Block"><file name="Item.php" hash="4a7189d326f17d4abc1349444d05f436"/><file name="Manage.php" hash="a28bb728de8b94670b56077197de6ac0"/><file name="Products.php" hash="f9cc4a778445726b0b1f42c1996dbdfa"/></dir><dir name="Helper"><file name="Data.php" hash="6ba95ab09e2c7f48f9e01f322bb80ec6"/></dir><dir name="controllers"><file name="IndexController.php" hash="a911a721aac53ac96654ce09ceefbf59"/></dir><dir name="etc"><file name="adminhtml.xml" hash="5532891745437ccb3bf2aa246add73b7"/><file name="config.xml" hash="c0449a8c04545a2fb2c66a461117017d"/><file name="system.xml" hash="61ca7c71c644c4c75d99498a99466649"/></dir></dir><dir name="Core"><dir name="Block"><file name="Info.php" hash="90e4c31958204ac9e40b2293c6372296"/><dir name="System"><dir name="Config"><dir name="Form"><dir name="Fieldset"><file name="Store.php" hash="15df9afac0ea33498b03ad544e0bc8c5"/></dir></dir><file name="Info.php" hash="a0601dea3e6e7d3c3f7f4ac7544dd249"/></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="fd937326042c8165a1df0faca629db7f"/></dir><dir name="Model"><file name="Feed.php" hash="9266834784c19c05f6cf06a3acc69acc"/><dir name="System"><dir name="Config"><dir name="Source"><file name="Display.php" hash="fd271787952e4f1b1ce98a0a68cb37cb"/><file name="Footer.php" hash="7c13df78247e0cc2fe1e11ddff2cdcdf"/><file name="Options.php" hash="a26a31999e38a540292ff24e5ed33428"/></dir></dir></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="7164e6536faa45bccbf4a09bc6fba886"/><file name="config.xml" hash="c7b1ac437420d8bb3160e561c18d10e6"/><file name="system.xml" hash="8371de258efa47ceff95e858c6c09603"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="ConversionBug_Cookiebaseproduct.xml" hash="d66e767c3fbad6778cad84db48cb25da"/><file name="ConversionBug_Core.xml" hash="537de773791fc95a5a3e340de82162f7"/></dir></target><target name="magedesign"><dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="cb_cookiebaseproduct.xml" hash="99a82dd7598827057531eabc7c995627"/></dir><dir name="template"><dir name="conversionbug"><file name="manage.phtml" hash="8ae47073ffc55651de189cd590358f42"/><file name="product.phtml" hash="30ae084fec5df96509b3d7e32987d85e"/><file name="sidebar.phtml" hash="2dcc91830e2ea6553bcab6f1853f692a"/><file name="sidebar_right.phtml" hash="bd609f8a14e834ac3168366d9da3f000"/></dir></dir></dir></dir></dir></dir><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="conversionbugcore.xml" hash="12ae2f9f2a96093fcefd593fed15e7b3"/></dir><dir name="template"><dir name="conversionbugcore"><file name="info.phtml" hash="4099f81b6ea49b517ef4354fd8bcb0a2"/></dir></dir></dir></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="css"><dir name="conversionbug"><file name="style.css" hash=""/><dir name="cookiebaseproduct"><file name="style.css" hash="a07f96e4fbe270d8f0ed9893d6e20bdf"/></dir><dir name="owl"><file name="AjaxLoader.gif" hash="5b8b06c052cac80413d62e5c45f9f37b"/><file name="bootstrapTheme.css" hash="6a99dc7813d9a40140192e71fe4e2cc7"/><file name="custom.css" hash="2966971052651b1a422b3bb594410b9c"/><file name="glyphicons-halflings-green.png" hash="9bbc6e9602998a385c2ea13df56470fd"/><file name="glyphicons-halflings-green.png_" hash="9cae7799ad4cae356531cb566f8fe287"/><file name="glyphicons-halflings.png" hash="2516339970d710819585f90773aebe0a"/><file name="grabbing.png" hash="d817e1dba5bd5d891d0504bf1715807b"/><file name="owl.carousel.css" hash="3113902e75b311845eb160a0c4b50f51"/><file name="owl.carousel.js" hash="a5f96c62d75be144282ef6cc429a6259"/><file name="owl.css" hash="6c438d4a7126a61e86805ebc0aebdb55"/><file name="owl.theme.css" hash="0a3f28b2f8a363198f35a188bea9ca2b"/><file name="owl.transitions.css" hash="b1bdaeac4065bf67a7d7a06213192964"/><file name="responsive.css" hash="6b7eb0867b2952eb412131c8c7fb1b85"/></dir></dir></dir></dir></dir></dir><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="conversionbug"><dir name="core"><file name="core.css" hash="726ac65a6b5f5aa819cebef92f99c7d4"/><dir name="images"><file name="cb_pattern.png" hash="9c5044bebc10bc6a34aa6a1e8e41b54a"/><file name="favicon.png" hash="bab36888d2974803acc518fc6e80c0a8"/><file name="logo.jpg" hash="04b873540f127f3db2702ec81537a92c"/></dir></dir></dir></dir></dir></dir></target><target name="mage"><dir name="js"><dir name="conversionbug"><dir name="owl-carousel"><file name="owl.carousel.js" hash="a5f96c62d75be144282ef6cc429a6259"/></dir></dir></dir></target><target name="magemedia"><dir name="import"><file name="product.csv" hash="fe4db0faa97e0181d36109d73e2a709d"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
